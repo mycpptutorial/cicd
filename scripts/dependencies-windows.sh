@@ -6,4 +6,4 @@ choco install cmake
 choco install python3
 choco install pip
 set PATH=c:\python37\Scripts;%PATH%
-pip3 install conan
+pip.exe install conan
