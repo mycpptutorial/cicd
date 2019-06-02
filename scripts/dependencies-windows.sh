@@ -5,4 +5,4 @@ choco install gcc
 choco install cmake
 choco install python3
 choco install pip
-pip install conan
+pip3 install conan
