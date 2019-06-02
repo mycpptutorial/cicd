@@ -2,5 +2,6 @@
 
 choco upgrade chocolatey
 choco install python3
-ls C:/Python37
-C:/Python37/python --version
+git clone https://github.com/pypa/get-pip.git
+C:/Python37/python ./get-pip/get-pip.py
+pip install conan
