@@ -4,4 +4,5 @@ choco upgrade chocolatey
 choco install gcc
 choco install cmake
 choco install python3
-choco install pip3
+git clone https://github.com/pypa/get-pip.git
+python3 ./get-pip/get-pip.py
