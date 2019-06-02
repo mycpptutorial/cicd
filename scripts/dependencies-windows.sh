@@ -2,6 +2,5 @@
 
 choco upgrade chocolatey
 choco install python3
-dir C:/Python37
-export PATH=C:/Python37:$PATH
-python --version
+ls C:/Python37
+C:/Python37/python --version
