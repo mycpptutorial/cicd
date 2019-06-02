@@ -7,3 +7,8 @@ choco install cmake
 # python ./get-pip/get-pip.py
 # pip install conan
 export PATH=C:/Python37:$PATH
+
+
+C:\Python37\python ./get-pip/get-pip.py
+SET PATH=c:\python37;c:\python37\Scripts;%PATH%
+pip install conan
