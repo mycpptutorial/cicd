@@ -5,6 +5,4 @@ choco install gcc
 choco install cmake
 choco install python3
 choco install pip3
-choco install conan
-
-set PATH=C:\Program/ Files\Conan\;%PATH%
+pip3 install conan
