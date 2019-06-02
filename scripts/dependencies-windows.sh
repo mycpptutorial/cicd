@@ -1,3 +1,7 @@
 #!/bin/bash
 
-pip install conan
+choco upgrade chocolatey
+choco install gcc
+choco install cmake
+choco install python3
+choco install pip
