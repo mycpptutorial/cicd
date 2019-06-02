@@ -6,3 +6,4 @@ choco install cmake
 choco install python3
 choco install pip3
 choco install conan
+refreshenv
