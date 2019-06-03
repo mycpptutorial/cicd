@@ -8,3 +8,4 @@ python --version
 python ./get-pip/get-pip.py
 pip --version
 pip install conan
+find / -name 'conan'
