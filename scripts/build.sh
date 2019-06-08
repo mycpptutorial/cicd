@@ -2,9 +2,9 @@
 
 export PATH=/c/python37:/c/python37/Scripts:/c/python37/lib/site-packages:$PATH
 
-export TRAVIS_COMPILER=gcc
-export CXX=gcc
-export CXX_FOR_BUILD=gcc
+export TRAVIS_COMPILER=g++
+export CXX=g++
+export CXX_FOR_BUILD=g++
 export CC=gcc
 export CC_FOR_BUILD=gcc
 
