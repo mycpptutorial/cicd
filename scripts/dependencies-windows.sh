@@ -11,4 +11,3 @@ python ./get-pip/get-pip.py
 pip --version
 pip install conan
 conan --version
-export PATH=/c/python37:/c/python37/Scripts:/c/python37/lib/site-packages:$PATH
