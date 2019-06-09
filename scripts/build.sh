@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=/c/python37:/c/python37/Scripts:/c/python37/lib/site-packages:$PATH
+sh pre-build-windows.sh
 
 CONAN_SOURCE=$1
 BUILD_FOLDER=$2
