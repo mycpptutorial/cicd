@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sh ./cicd/scripts/pre-build-windows.sh
+./cicd/scripts/pre-build-windows.sh
 
 CONAN_SOURCE=$1
 BUILD_FOLDER=$2
