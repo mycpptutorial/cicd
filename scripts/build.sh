@@ -1,9 +1,8 @@
 #!/bin/bash
 
-ls -al
-
 if [ $TRAVIS_OS_NAME == windows ]; then
-  source ./pre-build-windows.inc
+  cat ./cicd/scripts/pre-build-windows.inc
+  source ./cicd/scripts/pre-build-windows.inc
 fi
 
 CONAN_SOURCE=$1
