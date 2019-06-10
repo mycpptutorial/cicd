@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ls cicd
+ls cicd/scripts
 
-# if [ $TRAVIS_OS_NAME == windows ]; then
-#   cat ./cicd/scripts/pre-build-windows.inc
-#   source ./cicd/scripts/pre-build-windows.inc
-# fi
+if [ $TRAVIS_OS_NAME == windows ]; then
+  cat cicd/scripts/pre-build-windows.inc
+  source cicd/scripts/pre-build-windows.inc
+fi
 
 CONAN_SOURCE=$1
 BUILD_FOLDER=$2
